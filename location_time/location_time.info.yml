@@ -1,0 +1,6 @@
+name: Location & Time
+description: This is used to get current time of the location.
+type: module
+package: Other
+core_version_requirement: ^8 | ^9
+version: 1.0

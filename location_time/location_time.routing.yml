@@ -1,0 +1,7 @@
+location_time.admin_link:
+  path: '/admin/config/location_time'
+  defaults:
+    _title: 'Location Configuration'
+    _form: '\Drupal\location_time\Form\locationTimeForm'
+  requirements:
+    _permission: 'administer site configuration'

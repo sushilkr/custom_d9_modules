@@ -1,0 +1,5 @@
+{% if data.date_formatted %}
+  <p>Location: {{ data.country }}/{{ data.city }}<br />Date & Time: {{ data.date_formatted }}</p>
+{% else %}
+  <p>{{ 'To see this, please go to the "Admin Configuration" page eg- Admin Menu >> Configuration >> Content Authoring >> Location & Time and set the needed values.'|t }}</p>
+{% endif %}
